@@ -1,0 +1,26 @@
+{
+  "name": "js-cli-boris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin":{
+    "js-cli-boris": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.1.0",
+    "download": "^8.0.0",
+    "fs-extra": "^10.0.1",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.2",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.1.0",
+    "update-notifier": "^5.1.0"
+  }
+}

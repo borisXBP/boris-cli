@@ -1,0 +1,66 @@
+{
+  "git.ignoreWindowsGit27Warning": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss05', 'ss03', 'ss07', 'ss08', 'cv01', 'cv02', 'cv16'",
+  "terminal.integrated.fontFamily": "monospace",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue", "wpy"],
+  // javaScript默认单引号
+  "prettier.singleQuote": true,
+  // 每行最大字符数(0 = 禁用)。
+  "html.format.wrapLineLength": 200,
+  // 保存时是否格式化文件
+  "editor.formatOnSave": false,
+  // 对象属性后是否需要添加逗号
+  "prettier.trailingComma": "all",
+  // 默认行尾字符。使用 \n 表示 LF，\r\n 表示 CRLF。
+  "files.eol": "\r\n",
+  // 是否保存时格式化
+  "csscomb.formatOnSave": true,
+  // 预订参数： "yandex"
+  "csscomb.preset": "yandex",
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.maxTokenizationLineLength": 120,
+
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    // 每次保存的时候将代码按eslint格式进行修复
+    "source.fixAll.eslint": true,
+    "eslint.autoFixOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.bson": "default"
+  },
+  "vue.codeActions.enabled": false
+}

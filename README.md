@@ -7,3 +7,6 @@
 ## TODO:
 * 考虑模板是一大个文件夹时如何处理（较难）
 * 创建项目时根据用户在终端的输入，选择不同的模板（简单）
+
+## 可供参考的项目
+https://github.com/bencodezen/vue-enterprise-boilerplate

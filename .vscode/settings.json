@@ -10,7 +10,7 @@
   // 每行最大字符数(0 = 禁用)。
   "html.format.wrapLineLength": 200,
   // 保存时是否格式化文件
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   // 对象属性后是否需要添加逗号
   "prettier.trailingComma": "all",
   // 默认行尾字符。使用 \n 表示 LF，\r\n 表示 CRLF。
